@@ -1,2 +1,2 @@
 # Tribute-Page-FCC
-Second attemp at basic webpage
+Second attempt at basic webpage
