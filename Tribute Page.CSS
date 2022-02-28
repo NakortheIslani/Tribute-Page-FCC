@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+  }
+  .link { color: purple; } 
+  .link:hover { color: blue; }
+  /*heading animation*/
+  @keyframes Dragon {
+    0% {background-color: purple;}
+    100% {background-color: black;}
+  }
+  h1 {
+    font-size: 1.8vw;
+    font-family: "Copperplate Gothic Light", serif;
+    font-style: oblique;
+    text-align: center;
+    color: purple;
+    animation-name: Dragon;
+    animation-duration: 10s;
+    animation-iteration-count: 1s;
+  }
+  /*end heading animation*/
+  
+  /*image/grid*/
+  .gallery {
+    display: grid;
+    width: 90%;
+    margin: 5% 3% 5% 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px 400px;
+    grid-gap: 15% 2%;
+    --border-color: purple;
+    --border-size: 5px;
+    --border-style: solid;
+  }
+  .card2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    color: purple;
+    font-size: 1.8vw;
+    border-color: var(--border-color);
+    border-width: var(--border-width);
+    border-style: var(--border-style);
+  }
+  .card4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+    color: purple;
+    font-size: 1.8vw;
+    line-height: 2em;
+    border-color: var(--border-color);
+    border-width: var(--border-width);
+    border-style: var(--border-style);
+  }
+  .card6 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    color: purple;
+    font-size: 1.8vw;
+    border-color: var(--border-color);
+    border-width: var(--border-width);
+    border-style: var(--border-style);
+  }
+  
+  
+  /*end image/text flexbox*/
+  
+  
+  /*photo classes*/
+  .image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  #img-caption {
+    color: purple;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .img-caption {
+    color: purple;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  /*end photo classes*/
+  
+  
+  
+  /*add responsiveness features*/
+  /*
+  @media (min-width:) flex-column
+  @media (max-width:) flex-row
+  */
+  
